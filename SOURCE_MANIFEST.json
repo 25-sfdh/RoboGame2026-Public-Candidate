@@ -104,7 +104,7 @@
       "destination": "README.md",
       "source_sha256": "C2C9CB89404AB8F3BE5145352263F0EB9BCAA514BBF8E43113A15EBA228AE200",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "4B9D41BA9B83A28CE3D9CB6814E22C97325C43C21F6476FE3DBDA334CAC5DDE3"
+      "candidate_sha256": "5DA01657016AB46BBE5B44E88BC16C61552D2ABADB99686753076AE7D1268531"
     },
     {
       "source": "GitHub发布方案_20261013/.gitignore",
@@ -118,7 +118,7 @@
       "destination": "RELEASE_CHECKLIST.md",
       "source_sha256": "A4949434BF82D2A7F54E7AF9E3D8B0EDF2C34A8294890E1285EF1021F83CF9B7",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "553633A522FFF72D44DC741611AB92F95BE4D1A74531F6E6411BA4F18BBFCAEE"
+      "candidate_sha256": "F310D8CA6180741CA71B2C0C284F4FBA3B1F4E260671B53C586D01F82DFA27EF"
     },
     {
       "source": "GitHub发布方案_20261013/FILE_SELECTION.md",
@@ -214,15 +214,23 @@
       "candidate_sha256": "1A1DBE176BC233B499D35A57DB7513F2941C99AB9759F177830C9149BE99005B"
     }
   ],
-  "last_updated": "2026-10-23",
+  "mechanical_documentation": {
+    "index": "mechanical/README.md",
+    "files": 11,
+    "status": "Newly authored 2026-10-23 from internal design records, CAD inventory and approved photos; CAD and drawings not included; hashes recorded in LOCAL_RELEASE_AUDIT.md section 6.",
+    "publication_authorization": "confirmed by participant on 2026-10-24 as team authorization; no independent written verification"
+  },
+  "last_updated": "2026-10-24",
   "human_confirmation": {
     "date": "2026-10-23",
     "basis": "Participant-supplied release scope and contribution record; no independent written-rights verification.",
     "scope": [
       "current whitelist publication scope",
       "contribution narrative",
-      "privacy review"
+      "privacy review",
+      "mechanical documentation"
     ],
+    "mechanical_documentation": "confirmed by participant on 2026-10-24 as team authorization; no independent written verification",
     "usb_redaction": "explicitly authorized and applied to candidate only",
     "license": "MIT explicitly selected by user on 2026-10-23",
     "media": {

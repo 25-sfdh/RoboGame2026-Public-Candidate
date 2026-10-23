@@ -8,7 +8,7 @@ RoboGame 2026 移动操作机器人项目，展示机器人视觉定位、循迹
 
 这是本科阶段的团队机器人系统工程项目。机器人按场地路线到达取料区，通过颜色目标对位和测距接近，再编排升降、夹爪与推杆完成计划取放流程。项目的价值在于跨模块集成与真机调试经历。
 
-本仓库保存历史比赛工程快照（as-is）。入口由参赛者确认为 `grip_two_six_servo_new.py`；九个机器人端文件保持原始字节，`serial_ports.py` 仅对两处 USB 标识做了记录在案的脱敏。团队公开范围、个人叙述和图片展示权限已由参赛者确认，代码与项目说明文档采用 MIT。版本来源见 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)，核查范围见 [LOCAL_RELEASE_AUDIT.md](LOCAL_RELEASE_AUDIT.md)。保存逻辑不等于现场成功率、成功抓取次数或实测速度。
+本仓库保存历史比赛工程快照（as-is）。入口由参赛者确认为 `grip_two_six_servo_new.py`；九个机器人端文件保持原始字节，`serial_ports.py` 仅对两处 USB 标识做了记录在案的脱敏。原白名单的团队公开范围、个人叙述和图片展示权限已由参赛者确认；机械说明文档的团队公开范围已由本人确认已获团队授权（2026-10-24，无独立书面材料；见 Mechanical System）。代码与项目说明文档采用 MIT。版本来源见 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)，核查范围见 [LOCAL_RELEASE_AUDIT.md](LOCAL_RELEASE_AUDIT.md)。保存逻辑不等于现场成功率、成功抓取次数或实测速度。
 
 ## Demo
 
@@ -72,6 +72,18 @@ flowchart TD
 
 保存代码面向 Raspberry Pi、摄像头、移动底盘及其控制器、循迹板、超声测距、总线舵机、夹爪与推杆。GPIO 辅助代码标注 Raspberry Pi 5。完整接线、电源规格、控制器型号及最终机械版本尚待核实，详见 [hardware.md](docs/hardware.md)。
 
+## Mechanical System
+
+机械部分单独整理：四轮 100 mm 麦克纳姆轮底盘、2020 铝型材框架、双导轨链条二级升降门架和三层夹爪。当前只公开说明文档；机械说明文档的团队公开范围已由本人确认已获团队授权（2026-10-24，无独立书面材料）。CAD/工程图因授权、第三方模型来源和仓库体积未确认，没有纳入本仓库。
+
+![机器人机械结构](media/robot-overview.jpg)
+
+- [机械系统总览](mechanical/README.md)
+- [CAD 与工程图状态](mechanical/cad/README.md)
+- [设计迭代与待确认项](mechanical/docs/design_iterations.md)
+
+尺寸、门架质量、升降行程等历史线索必须按机械文档中的“待核实/冲突”阅读，不能当作最终测量值。
+
 ## Software Architecture
 
 为保留原始同目录导入，十个机器人端历史文件保存在 `src/robot/`：
@@ -116,9 +128,9 @@ flowchart LR
 
 ## My Contribution
 
-我的参与经历从前期机械方案调研、执行机构和 SolidWorks 结构设计、装配调试，逐步扩展到 Raspberry Pi/Python 开发、循迹与视觉定位调试、任务流程和整车联调。
+我的参与从机械方案调研开始：研究 RoboCon 等参考、参与确定“升降 + 三层夹爪”方案、独立完成早期整车 SolidWorks 方案模型（该模型属于项目早期整车设计方案，并非最终比赛机器人完整 CAD；最终实车升降机构与早期方案差异不大，但底盘方案发生较大变化），并完成三组夹爪的连杆结构、驱动方案、材料选择与三层空间布局；参与升降机构早期设计与机械计划书撰写（据本人历史复盘，机械方案评审排名第 4；非最终比赛排名，暂无独立评审记录）。
 
-这是团队成果。上述角色依据本人经历说明；底盘、视觉和执行框架中各文件的原作者，以及本人独立编写的具体改动，仍需提交记录或队友确认。整机、全部算法与全套 CAD 不归为个人独立成果。本人关于前后双循迹方案、通信接线排查与后续调试的经历记录，见 [A Personal Debugging Case](docs/development_notes.md#a-personal-debugging-case)。
+项目后期，最终底盘由另一位机械队友主导并发生较大调整；升降驱动由 M3508 改为 45 kg 级舵机的工作由其他成员完成；最终整车装配主要由两位机械队友完成。2026-09-04 起我参与约 9–10 天机械/底盘排查，随后转向树莓派、前后双循迹、视觉与系统联调。最终竞技组一等奖属于团队，不代表个人独立完成整机；现场抓取动作次数不等于全部成功。整机、全部算法与全套 CAD 不归为个人独立成果；文件级作者和“早期 CAD → 最终 CAD”的逐项对应仍需核对。机械部分细节见 [mechanical/README.md](mechanical/README.md)，个人调试案例见 [A Personal Debugging Case](docs/development_notes.md#a-personal-debugging-case)。
 
 ## Engineering Challenges
 
@@ -166,6 +178,19 @@ RoboGame2026-Public-Candidate/
 │   ├── competition-stacking.jpg
 │   ├── competition-transport.jpg
 │   └── competition-field.jpg
+├── mechanical/
+│   ├── README.md
+│   ├── cad/README.md
+│   ├── drawings/README.md
+│   ├── bom/README.md
+│   ├── images/README.md
+│   └── docs/
+│       ├── system_overview.md
+│       ├── chassis_design.md
+│       ├── lifting_mechanism.md
+│       ├── gripper_design.md
+│       ├── design_iterations.md
+│       └── assembly_notes.md
 └── src/
     └── robot/              # 9 个原样文件 + 1 个仅做标识脱敏的文件
 ```
