@@ -1,0 +1,499 @@
+{
+  "date": "2026-10-13",
+  "scope": "historical_competition_engineering_snapshot_as_is",
+  "entries": [
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/grip_two_six_servo_new.py",
+      "destination": "src/robot/grip_two_six_servo_new.py",
+      "bytes": 17916,
+      "sha256": "9998191028CBA49770500AEF8235F6A43F44E4C2BEB29F2882C14AF3D7E7BF7D",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "9998191028CBA49770500AEF8235F6A43F44E4C2BEB29F2882C14AF3D7E7BF7D"
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/trace_car_v2.py",
+      "destination": "src/robot/trace_car_v2.py",
+      "bytes": 70288,
+      "sha256": "FA98C3E8FE380EA05CF5BFBF6BEEF12E0BAA5B2317F024B803EC9410DF79A810",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "FA98C3E8FE380EA05CF5BFBF6BEEF12E0BAA5B2317F024B803EC9410DF79A810"
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/trace_car_v1.py",
+      "destination": "src/robot/trace_car_v1.py",
+      "bytes": 24271,
+      "sha256": "AF31956587135C48C0A2FA59128EF4A4F6D1B17261F56F024829550D18DA7EF5",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "AF31956587135C48C0A2FA59128EF4A4F6D1B17261F56F024829550D18DA7EF5"
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/visual_block_positioning.py",
+      "destination": "src/robot/visual_block_positioning.py",
+      "bytes": 73700,
+      "sha256": "D6F24E6E6FFA4754E42F23A124FEA4417F7FFAD0B0D44B7FF772CA566842174D",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "D6F24E6E6FFA4754E42F23A124FEA4417F7FFAD0B0D44B7FF772CA566842174D"
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/set_angle.py",
+      "destination": "src/robot/set_angle.py",
+      "bytes": 16112,
+      "sha256": "878BB5C74C08CF731287DDF72F0DDD1C13E067EFF105B5D32157A95904818AB3",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "878BB5C74C08CF731287DDF72F0DDD1C13E067EFF105B5D32157A95904818AB3"
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/distance.py",
+      "destination": "src/robot/distance.py",
+      "bytes": 3202,
+      "sha256": "048A14A1F6725FDC74BDA5AD97454B12E78EBFEDD29F143C81A36047279EE217",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "048A14A1F6725FDC74BDA5AD97454B12E78EBFEDD29F143C81A36047279EE217"
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/distance_zuo.py",
+      "destination": "src/robot/distance_zuo.py",
+      "bytes": 3201,
+      "sha256": "989FD6F1FC97420FD22A0DD253AC460B1A1E8FE92372B8BE9572042F77A93640",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "989FD6F1FC97420FD22A0DD253AC460B1A1E8FE92372B8BE9572042F77A93640"
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/serial_ports.py",
+      "destination": "src/robot/serial_ports.py",
+      "bytes": 3776,
+      "sha256": "96918886D2C705A821CC012F420326F3FCCA5891BDFD2D35A1F05054B9AB3CA8",
+      "status": "candidate_usb_identifier_redacted_with_user_authorization",
+      "candidate_sha256": "1CC1F849500AA681C4BDCBCD37831BF45BA1BD1E23911A7FD26678C8A78BD4C2",
+      "candidate_bytes": 3802,
+      "changes": {
+        "date": "2026-10-23",
+        "lines": [
+          29,
+          32
+        ],
+        "replacement": "CHASSIS_SERIAL_REDACTED",
+        "occurrences": 2,
+        "source_preserved": true,
+        "runtime_note": "Resolver logic unchanged; preferred by-id now contains placeholder, so hardware selection may differ and is not verified."
+      }
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/Tuigan.py",
+      "destination": "src/robot/Tuigan.py",
+      "bytes": 10326,
+      "sha256": "E0820164BDE3929197A956570293447C2DAC2B793E98DBA637239C42C4281DE0",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "E0820164BDE3929197A956570293447C2DAC2B793E98DBA637239C42C4281DE0"
+    },
+    {
+      "source": "代码/robogame三审速通/pi_current_20261002/test_comm.py",
+      "destination": "src/robot/test_comm.py",
+      "bytes": 6096,
+      "sha256": "F1484BC38CB08665C158DE615D0E8FA77A19A7BA46D36323969432A18659406C",
+      "status": "copied_verbatim_sha256_verified",
+      "candidate_sha256": "F1484BC38CB08665C158DE615D0E8FA77A19A7BA46D36323969432A18659406C"
+    }
+  ],
+  "source_root_basis": "Source paths are relative to the original RoboGame2026-Robot archive; no machine absolute root is embedded.",
+  "release_gate": "STATIC_REVIEW_COMPLETED_HISTORICAL_SNAPSHOT",
+  "validation": "byte hashes and AST parsing only; no hardware imports or execution",
+  "documentation_entries": [
+    {
+      "source": "GitHub发布方案_20261013/README.md",
+      "destination": "README.md",
+      "source_sha256": "C2C9CB89404AB8F3BE5145352263F0EB9BCAA514BBF8E43113A15EBA228AE200",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "3F88A461A249DF89356B33C312A6F17F33182323AB66ED7FBD0D82466BC0A2C8"
+    },
+    {
+      "source": "GitHub发布方案_20261013/.gitignore",
+      "destination": ".gitignore",
+      "source_sha256": "580CC1DE1566369F4A177435BF530992E48CBCA2FD85318898BFFF3F43A7DEF0",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "C276867485D936866561EEB103364D4327C44F8F07F4251BBE78B71F580B3957"
+    },
+    {
+      "source": "GitHub发布方案_20261013/RELEASE_CHECKLIST.md",
+      "destination": "RELEASE_CHECKLIST.md",
+      "source_sha256": "A4949434BF82D2A7F54E7AF9E3D8B0EDF2C34A8294890E1285EF1021F83CF9B7",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "633B5C0547318B18A00CE1240BA2BB916BD5FACFE5CC59505B507F5BEE85D3B6"
+    },
+    {
+      "source": "GitHub发布方案_20261013/FILE_SELECTION.md",
+      "destination": "FILE_SELECTION.md",
+      "source_sha256": "ADD1A1E2CC83569AE7ADCAC04F514240887620475686D2C77C870B1E943DA851",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "586A1D142467494F93D286DDCADFE567891FBCC0F0DFF37F6E1255E6B834AEDA"
+    },
+    {
+      "source": "GitHub发布方案_20261013/SOURCE_MANIFEST.json",
+      "destination": "SOURCE_MANIFEST.json",
+      "source_sha256": "DA11C80F7307040A31F4478A28FC9C64BE4B9087D931DA516196923312544167",
+      "status": "derived_manifest_updated_from_proposal",
+      "candidate_sha256": null,
+      "hash_note": "Final hash recorded in LOCAL_RELEASE_AUDIT.md; self-hash intentionally omitted."
+    },
+    {
+      "source": "GitHub发布方案_20261013/docs/architecture.md",
+      "destination": "docs/architecture.md",
+      "source_sha256": "91B1A3A45067347DEC4250F2BAE02DD1DF541F9660761728356212060F1F713D",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "9BD52228A358157B2C87E920C0E354CF7E611E3861AB3DB7F961664DEEBC021B"
+    },
+    {
+      "source": "GitHub发布方案_20261013/docs/hardware.md",
+      "destination": "docs/hardware.md",
+      "source_sha256": "07FCD5FCADEF8E0D33340173F79B7556FFA08B1B72391EE3422008529A471893",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "FCD7E1170E53EF1042C4831DF1981A305338D5D14F4473EE91C2B3748B60A48F"
+    },
+    {
+      "source": "GitHub发布方案_20261013/docs/software_structure.md",
+      "destination": "docs/software_structure.md",
+      "source_sha256": "B56C423D3A3BF7AEAB2395B8D5D797CCF331D9022A72991DCC1F8434D3C00B6C",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "FA8DC63AE7CD6FF09BBCCAD6AB8C4CB6390C9272FBB830EFA448F12E7322336F"
+    },
+    {
+      "source": "GitHub发布方案_20261013/docs/development_notes.md",
+      "destination": "docs/development_notes.md",
+      "source_sha256": "5E5E6A3BFFE571A65AC9A6827F8F19E6DDD0943435F630788DD834031B0EB295",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "65F149A858B1BE076384F7670317921E106A5E772089485C8EF08CAAF11F7B97"
+    },
+    {
+      "source": "GitHub发布方案_20261013/docs/lessons_learned.md",
+      "destination": "docs/lessons_learned.md",
+      "source_sha256": "9191F3ED6EDE2183A299F36C2A8A065B1578FB7A988D9FF456B78B8E36147044",
+      "status": "copied_verbatim",
+      "candidate_sha256": "9191F3ED6EDE2183A299F36C2A8A065B1578FB7A988D9FF456B78B8E36147044"
+    },
+    {
+      "source": "GitHub发布方案_20261013/docs/fact_check.md",
+      "destination": "docs/fact_check.md",
+      "source_sha256": "DF3E8EFB97079D87C75DE1954A47361949A96ABA452AB5375E2E542537C605CD",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "14F50595D2D91473BC2EBCD54970EC205FE19ABA72E3B31818F474023AA3DE86"
+    },
+    {
+      "source": "GitHub发布方案_20261013/media/README.md",
+      "destination": "media/README.md",
+      "source_sha256": "2479C696B0C0273F13089E5373C10BAC34A8061376F47280807A92013B9AC193",
+      "status": "candidate_documentation_updated",
+      "candidate_sha256": "EE618AF548169EBC9D7881229AE23BFFBDB871301EC13EFE4F633DFCEE9D5977"
+    }
+  ],
+  "generated_documents": [
+    {
+      "destination": "LICENSE_STATUS.md",
+      "basis": "Project documentation and static snapshot review record, updated 2026-10-23."
+    },
+    {
+      "destination": "SECURITY_FINDINGS.md",
+      "basis": "Project documentation and static snapshot review record, updated 2026-10-23."
+    },
+    {
+      "destination": "SOURCE_CHANGE_PROPOSALS.md",
+      "basis": "Project documentation and static snapshot review record, updated 2026-10-23."
+    },
+    {
+      "destination": "LOCAL_RELEASE_AUDIT.md",
+      "basis": "Project documentation and static snapshot review record, updated 2026-10-23."
+    },
+    {
+      "destination": "LICENSE",
+      "basis": "Standard MIT License, explicitly selected by user on 2026-10-23; year and collective project contributor notice filled in.",
+      "source_url": "https://choosealicense.com/licenses/mit/",
+      "candidate_sha256": "30A1D2F285C2252170C5DF7521E4AE164BDF00DC56F48B1B32F05B61DFE32C54"
+    }
+  ],
+  "last_updated": "2026-10-23",
+  "human_confirmation": {
+    "date": "2026-10-23",
+    "basis": "Participant-supplied release scope and contribution record; no independent written-rights verification.",
+    "scope": [
+      "current whitelist publication scope",
+      "contribution narrative",
+      "privacy review"
+    ],
+    "usb_redaction": "explicitly authorized and applied to candidate only",
+    "license": "MIT explicitly selected by user on 2026-10-23",
+    "media": {
+      "date": "2026-10-23",
+      "images": 5,
+      "repository_display": "user confirmed",
+      "team_award_board": "user confirmed first-prize board corresponds to this team project",
+      "video_url": "not provided",
+      "mit_sublicense_for_images": "not confirmed"
+    }
+  },
+  "license": {
+    "spdx_id": "MIT",
+    "file": "LICENSE",
+    "copyright_year": 2026,
+    "copyright_notice_holder": "RoboGame 2026 project contributors",
+    "notice_scope": "collective project contributor attribution; does not assert individual authorship",
+    "standard_text_source": "https://choosealicense.com/licenses/mit/",
+    "sha256": "30A1D2F285C2252170C5DF7521E4AE164BDF00DC56F48B1B32F05B61DFE32C54",
+    "selected_by": "user",
+    "date": "2026-10-23",
+    "scope": "project code and project documentation; image reuse terms separately documented in media/README.md"
+  },
+  "media_entries": [
+    {
+      "attachment": 1,
+      "source": {
+        "kind": "user_supplied_image",
+        "sha256": "21B35EB3FAF5F73726AE464BFE6434CDCD9B69EC0048E73F430E8D5F7495E408",
+        "bytes": 1441011,
+        "attachment_id": "attachment-1"
+      },
+      "destination": "media/robot-overview.jpg",
+      "caption": "机器人实物整体与升降机构",
+      "width": 2523,
+      "height": 3786,
+      "candidate_sha256": "BC5DC5FD083B92430C75251C2B1B858744C3DF74E039EE8ACE164C869F296668",
+      "candidate_bytes": 1436664,
+      "transformation": {
+        "kind": "lossless_static_JPEG_sanitization",
+        "date": "2026-10-23",
+        "prior_removed_markers": [
+          "0xE1",
+          "0xED",
+          "0xE1"
+        ],
+        "removed_markers": [
+          "0xE1",
+          "0xED",
+          "0xE1"
+        ],
+        "additional_removed_segments": [],
+        "removed_trailing_bytes_from_previous_candidate": 0,
+        "removed_trailing_kind": "none",
+        "trailing_bytes_after_eoi": 0,
+        "eoi_end": 1436664,
+        "retained_markers": [
+          "APP0 JFIF"
+        ],
+        "retained_icc_segments": [],
+        "image_codestream_sha256": "1B0EBB50C4C2F55C255082FA0AD4FFEBE3199DFC984F719559CA2CACEEB76691",
+        "image_codestream_unchanged": true,
+        "decoded_pixels_identical_to_previous_candidate": true,
+        "icc_profile_unchanged": true,
+        "watermark_preserved": true,
+        "scope_note": "Compared with the prior candidate JPEG; original attachment hash is provenance, not a claim of a fresh original-file pixel comparison."
+      },
+      "permission": {
+        "status": "user_confirmed_for_repository_display",
+        "date": "2026-10-23",
+        "basis": "Participant confirmation recorded on 2026-10-23; repository display only.",
+        "source_credit": "User supplied; photographer not separately named",
+        "original_video_url": null,
+        "mit_sublicense_confirmed": false
+      }
+    },
+    {
+      "attachment": 2,
+      "source": {
+        "kind": "user_supplied_image",
+        "sha256": "2D7096D629E9A8A47F233A0445EB86CE27EB3BB49FA30F690C97FA230513E363",
+        "bytes": 8291215,
+        "attachment_id": "attachment-2"
+      },
+      "destination": "media/team-award.jpg",
+      "caption": "机器人与团队一等奖奖牌展示",
+      "width": 4096,
+      "height": 3072,
+      "candidate_sha256": "7580395965E9D40821297E594B60054720DC9010DBBDBA0E8865E0C251B40946",
+      "candidate_bytes": 3748634,
+      "transformation": {
+        "kind": "lossless_static_JPEG_sanitization",
+        "date": "2026-10-23",
+        "prior_removed_markers": [
+          "0xE1",
+          "0xE1"
+        ],
+        "removed_markers": [
+          "0xE1",
+          "0xE1",
+          "0xE4",
+          "0xE3"
+        ],
+        "additional_removed_segments": [
+          {
+            "marker": "0xE4",
+            "bytes": 636
+          },
+          {
+            "marker": "0xE3",
+            "bytes": 8978
+          }
+        ],
+        "removed_trailing_bytes_from_previous_candidate": 4517519,
+        "removed_trailing_kind": "MP4 Live Photo container",
+        "trailing_bytes_after_eoi": 0,
+        "eoi_end": 3748634,
+        "retained_markers": [
+          "APP0 JFIF",
+          "APP2 ICC_PROFILE"
+        ],
+        "retained_icc_segments": [
+          {
+            "marker": "0xE2",
+            "bytes_including_marker": 650,
+            "segment_length_field": 648,
+            "sha256": "A748A7C3BF703A743494F175C195E55FD170C578D6C8276834BFBB2CF20396A6"
+          }
+        ],
+        "image_codestream_sha256": "1DFAD77852E45E66C99C2E10F17175A63A98450AC1321876EE8330705C3A1AB9",
+        "image_codestream_unchanged": true,
+        "decoded_pixels_identical_to_previous_candidate": true,
+        "icc_profile_unchanged": true,
+        "watermark_preserved": true,
+        "scope_note": "Compared with the prior candidate JPEG; original attachment hash is provenance, not a claim of a fresh original-file pixel comparison."
+      },
+      "permission": {
+        "status": "user_confirmed_for_repository_display",
+        "date": "2026-10-23",
+        "basis": "Participant confirmation recorded on 2026-10-23; repository display only.",
+        "source_credit": "User supplied; photographer not separately named",
+        "original_video_url": null,
+        "mit_sublicense_confirmed": false
+      }
+    },
+    {
+      "attachment": 3,
+      "source": {
+        "kind": "user_supplied_image",
+        "sha256": "9D08AF3D78D805665A09E7CA97F5745759C9468314EBF12F08D1ECF2B4B00963",
+        "bytes": 64357,
+        "attachment_id": "attachment-3"
+      },
+      "destination": "media/competition-stacking.jpg",
+      "caption": "比赛截图：机器人、方块与场地区域",
+      "width": 1440,
+      "height": 648,
+      "candidate_sha256": "182E5CC3A9F50B6080DD29310AE1D955DC90E8AAA81F3F69E4C90A30D789C10B",
+      "candidate_bytes": 64333,
+      "transformation": {
+        "kind": "lossless_static_JPEG_sanitization",
+        "date": "2026-10-23",
+        "prior_removed_markers": [],
+        "removed_markers": [],
+        "additional_removed_segments": [],
+        "removed_trailing_bytes_from_previous_candidate": 24,
+        "removed_trailing_kind": "opaque trailer",
+        "trailing_bytes_after_eoi": 0,
+        "eoi_end": 64333,
+        "retained_markers": [
+          "APP0 JFIF"
+        ],
+        "retained_icc_segments": [],
+        "image_codestream_sha256": "B1CB3D091DF7957EA5CF03BEDCA2D6132A58E92E3B1F350EA039D332FA7B1C40",
+        "image_codestream_unchanged": true,
+        "decoded_pixels_identical_to_previous_candidate": true,
+        "icc_profile_unchanged": true,
+        "watermark_preserved": true,
+        "scope_note": "Compared with the prior candidate JPEG; original attachment hash is provenance, not a claim of a fresh original-file pixel comparison."
+      },
+      "permission": {
+        "status": "user_confirmed_for_repository_display",
+        "date": "2026-10-23",
+        "basis": "Participant confirmation recorded on 2026-10-23; repository display only.",
+        "source_credit": "USTC机器人俱乐部 / bilibili (visible watermark)",
+        "original_video_url": null,
+        "mit_sublicense_confirmed": false
+      }
+    },
+    {
+      "attachment": 4,
+      "source": {
+        "kind": "user_supplied_image",
+        "sha256": "6D03216A4D2C9E40572961EC80130D6D3E2A53F2BB23EB9F1078A629A4BAFE19",
+        "bytes": 68481,
+        "attachment_id": "attachment-4"
+      },
+      "destination": "media/competition-transport.jpg",
+      "caption": "比赛截图：机器人夹持橙色与紫色方块",
+      "width": 1440,
+      "height": 648,
+      "candidate_sha256": "DE4CC8DCDFE5E3572987939E85187978232A7C725C08B82B93C23C2FF06EB950",
+      "candidate_bytes": 68457,
+      "transformation": {
+        "kind": "lossless_static_JPEG_sanitization",
+        "date": "2026-10-23",
+        "prior_removed_markers": [],
+        "removed_markers": [],
+        "additional_removed_segments": [],
+        "removed_trailing_bytes_from_previous_candidate": 24,
+        "removed_trailing_kind": "opaque trailer",
+        "trailing_bytes_after_eoi": 0,
+        "eoi_end": 68457,
+        "retained_markers": [
+          "APP0 JFIF"
+        ],
+        "retained_icc_segments": [],
+        "image_codestream_sha256": "68C3A2DB4845B62DA61F563645E4A5A751A4D73E7A6F8D28430143D38704590A",
+        "image_codestream_unchanged": true,
+        "decoded_pixels_identical_to_previous_candidate": true,
+        "icc_profile_unchanged": true,
+        "watermark_preserved": true,
+        "scope_note": "Compared with the prior candidate JPEG; original attachment hash is provenance, not a claim of a fresh original-file pixel comparison."
+      },
+      "permission": {
+        "status": "user_confirmed_for_repository_display",
+        "date": "2026-10-23",
+        "basis": "Participant confirmation recorded on 2026-10-23; repository display only.",
+        "source_credit": "USTC机器人俱乐部 / bilibili (visible watermark)",
+        "original_video_url": null,
+        "mit_sublicense_confirmed": false
+      }
+    },
+    {
+      "attachment": 5,
+      "source": {
+        "kind": "user_supplied_image",
+        "sha256": "C47BCD193F74B8C4B5F4CE126D568D045CEC6B5DCB36A80EF83C151CF6D8211A",
+        "bytes": 67857,
+        "attachment_id": "attachment-5"
+      },
+      "destination": "media/competition-field.jpg",
+      "caption": "比赛截图：场地与同场机器人",
+      "width": 1440,
+      "height": 648,
+      "candidate_sha256": "9ABDF53F6D1BA0629A5F01D77FAF528AEF6D593BB7FAF88641D8B47F1D60BD57",
+      "candidate_bytes": 67833,
+      "transformation": {
+        "kind": "lossless_static_JPEG_sanitization",
+        "date": "2026-10-23",
+        "prior_removed_markers": [],
+        "removed_markers": [],
+        "additional_removed_segments": [],
+        "removed_trailing_bytes_from_previous_candidate": 24,
+        "removed_trailing_kind": "opaque trailer",
+        "trailing_bytes_after_eoi": 0,
+        "eoi_end": 67833,
+        "retained_markers": [
+          "APP0 JFIF"
+        ],
+        "retained_icc_segments": [],
+        "image_codestream_sha256": "DBA4A58D52DCB7CF08B050C282109CC43541C768D46EF2352693CE6A2A746787",
+        "image_codestream_unchanged": true,
+        "decoded_pixels_identical_to_previous_candidate": true,
+        "icc_profile_unchanged": true,
+        "watermark_preserved": true,
+        "scope_note": "Compared with the prior candidate JPEG; original attachment hash is provenance, not a claim of a fresh original-file pixel comparison."
+      },
+      "permission": {
+        "status": "user_confirmed_for_repository_display",
+        "date": "2026-10-23",
+        "basis": "Participant confirmation recorded on 2026-10-23; repository display only.",
+        "source_credit": "USTC机器人俱乐部 / bilibili (visible watermark)",
+        "original_video_url": null,
+        "mit_sublicense_confirmed": false
+      }
+    }
+  ]
+}
