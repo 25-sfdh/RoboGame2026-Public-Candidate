@@ -1,6 +1,6 @@
 # Security Findings
 
-初查日期：2026-10-13；标识脱敏与文本复查：2026-10-23。范围为本候选的全部 27 个文本文件，以及新增的五张 JPEG 的可见画面与元数据（10 个 Python、14 个 Markdown、1 个 JSON、1 个 .gitignore、1 个 LICENSE）；包含本轮生成的审核文档。不代表整个原始归档已通过检查。只读取文本与 AST，不导入模块，不连接设备。
+初查日期：2026-10-13；标识脱敏与文本复查：2026-10-23。范围为本候选的全部 28 个文本文件，以及新增的五张 JPEG 的可见画面与元数据（10 个 Python、14 个 Markdown、1 个 JSON、1 个 .gitignore、1 个 .gitattributes、1 个 LICENSE）；包含本轮生成的审核文档。不代表整个原始归档已通过检查。只读取文本与 AST，不导入模块，不连接设备。
 
 搜索覆盖 `/home/`、Windows 盘符/用户路径、IPv4、SSH、password/passwd/token/key/secret、Wi-Fi/SSID、邮箱/手机号样式及姓名/学号相关文本，并人工区分字段名、说明文字和实际配置。未提供本人及队友姓名/学号的专用匹配清单，关键词检查不能替代参赛者已确认的身份信息复核。扫描未检出明显凭据、私钥材料、实际私网部署 IP、Windows 个人路径、邮箱或手机号；这不是对所有隐私形式的保证。
 
@@ -58,6 +58,6 @@ Pillow 成功解码五张图片；相对修复前候选副本，全部解码像�
 
 ## 补充的历史运行缺口
 
-- `grip_two_six_servo_new.py:259` 的夹爪函数先执行，正常返回 None 后不能成为 Thread 的可展开参数；异常发生在 thread_wrapper 调用前，且这次函数调用未经过入口的舵机锁。
+- `grip_two_six_servo_new.py:259` 的夹爪函数先执行，正常返回 None，使 `args=(None,)` 传入线程；`thread_wrapper` 内部的 `func(*args)` 抛出 TypeError，该异常被其 `except Exception` 捕获并记入 `_thread_errors`，但入口不检查该列表，因此并行初始化静默失败；这次直接调用也未经过入口的舵机锁。
 - `trace_car_v2.py:697–704` 的 run 捕获 KeyboardInterrupt/Exception 后只打印、清理并返回；`1144–1147` 也捕获 KeyboardInterrupt，上层可能继续推进。
 - `set_angle.py:147–148,165` 若读回 None，减法会抛出 TypeError，中断重试。源码保留，未做硬件触发验证。

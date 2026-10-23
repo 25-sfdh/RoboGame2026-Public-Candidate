@@ -104,7 +104,7 @@
       "destination": "README.md",
       "source_sha256": "C2C9CB89404AB8F3BE5145352263F0EB9BCAA514BBF8E43113A15EBA228AE200",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "3F88A461A249DF89356B33C312A6F17F33182323AB66ED7FBD0D82466BC0A2C8"
+      "candidate_sha256": "4B9D41BA9B83A28CE3D9CB6814E22C97325C43C21F6476FE3DBDA334CAC5DDE3"
     },
     {
       "source": "GitHub发布方案_20261013/.gitignore",
@@ -118,7 +118,7 @@
       "destination": "RELEASE_CHECKLIST.md",
       "source_sha256": "A4949434BF82D2A7F54E7AF9E3D8B0EDF2C34A8294890E1285EF1021F83CF9B7",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "633B5C0547318B18A00CE1240BA2BB916BD5FACFE5CC59505B507F5BEE85D3B6"
+      "candidate_sha256": "553633A522FFF72D44DC741611AB92F95BE4D1A74531F6E6411BA4F18BBFCAEE"
     },
     {
       "source": "GitHub发布方案_20261013/FILE_SELECTION.md",
@@ -175,14 +175,14 @@
       "destination": "docs/fact_check.md",
       "source_sha256": "DF3E8EFB97079D87C75DE1954A47361949A96ABA452AB5375E2E542537C605CD",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "14F50595D2D91473BC2EBCD54970EC205FE19ABA72E3B31818F474023AA3DE86"
+      "candidate_sha256": "951DF87D9C93B343F980FC24C272E1140C6DF35194908D3E30C1520FD7A126C0"
     },
     {
       "source": "GitHub发布方案_20261013/media/README.md",
       "destination": "media/README.md",
       "source_sha256": "2479C696B0C0273F13089E5373C10BAC34A8061376F47280807A92013B9AC193",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "EE618AF548169EBC9D7881229AE23BFFBDB871301EC13EFE4F633DFCEE9D5977"
+      "candidate_sha256": "13E04D318FEC0332A07AD4409885FD97F5EAFC823BC35100139CA3ED11C60156"
     }
   ],
   "generated_documents": [
@@ -207,6 +207,11 @@
       "basis": "Standard MIT License, explicitly selected by user on 2026-10-23; year and collective project contributor notice filled in.",
       "source_url": "https://choosealicense.com/licenses/mit/",
       "candidate_sha256": "30A1D2F285C2252170C5DF7521E4AE164BDF00DC56F48B1B32F05B61DFE32C54"
+    },
+    {
+      "destination": ".gitattributes",
+      "basis": "Git initialization text normalization template; * text=auto.",
+      "candidate_sha256": "1A1DBE176BC233B499D35A57DB7513F2941C99AB9759F177830C9149BE99005B"
     }
   ],
   "last_updated": "2026-10-23",
@@ -336,7 +341,6 @@
         "trailing_bytes_after_eoi": 0,
         "eoi_end": 3748634,
         "retained_markers": [
-          "APP0 JFIF",
           "APP2 ICC_PROFILE"
         ],
         "retained_icc_segments": [

@@ -142,6 +142,7 @@ flowchart LR
 ```text
 RoboGame2026-Public-Candidate/
 ├── README.md
+├── .gitattributes
 ├── .gitignore
 ├── RELEASE_CHECKLIST.md
 ├── FILE_SELECTION.md

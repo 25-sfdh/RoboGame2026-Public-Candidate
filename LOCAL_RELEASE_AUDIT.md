@@ -1,6 +1,6 @@
 # Historical Snapshot Audit
 
-记录日期：2026-10-23。本记录描述 historical engineering snapshot / as-is 的文件与静态核查范围，适用于本地副本或 GitHub 展示。共 32 个文件：27 个文本文件与 5 张静态 JPEG。
+记录日期：2026-10-23。本记录描述 historical engineering snapshot / as-is 的文件与静态核查范围，适用于本地副本或 GitHub 展示。共 33 个文件：28 个文本文件与 5 张静态 JPEG（含 Git 初始化生成的 .gitattributes）。
 
 ## 1. 实际目录
 
@@ -32,6 +32,7 @@ RoboGame2026-Public-Candidate/
 │       ├── trace_car_v2.py
 │       ├── Tuigan.py
 │       └── visual_block_positioning.py
+├── .gitattributes
 ├── .gitignore
 ├── FILE_SELECTION.md
 ├── LICENSE
@@ -60,18 +61,19 @@ RoboGame2026-Public-Candidate/
 | `src/robot/serial_ports.py` | `代码/robogame三审速通/pi_current_20261002/serial_ports.py` | `1CC1F849500AA681C4BDCBCD37831BF45BA1BD1E23911A7FD26678C8A78BD4C2` | 两处授权 USB 标识脱敏；原件保留 |
 | `src/robot/Tuigan.py` | `代码/robogame三审速通/pi_current_20261002/Tuigan.py` | `E0820164BDE3929197A956570293447C2DAC2B793E98DBA637239C42C4281DE0` | 原样复制；SHA-256 一致 |
 | `src/robot/test_comm.py` | `代码/robogame三审速通/pi_current_20261002/test_comm.py` | `F1484BC38CB08665C158DE615D0E8FA77A19A7BA46D36323969432A18659406C` | 原样复制；SHA-256 一致 |
-| `README.md` | `GitHub发布方案_20261013/README.md` | `3F88A461A249DF89356B33C312A6F17F33182323AB66ED7FBD0D82466BC0A2C8` | 候选文档更新；源文件未改 |
+| `README.md` | `GitHub发布方案_20261013/README.md` | `4B9D41BA9B83A28CE3D9CB6814E22C97325C43C21F6476FE3DBDA334CAC5DDE3` | 候选文档更新；源文件未改 |
 | `.gitignore` | `GitHub发布方案_20261013/.gitignore` | `C276867485D936866561EEB103364D4327C44F8F07F4251BBE78B71F580B3957` | 候选文档更新；源文件未改 |
-| `RELEASE_CHECKLIST.md` | `GitHub发布方案_20261013/RELEASE_CHECKLIST.md` | `633B5C0547318B18A00CE1240BA2BB916BD5FACFE5CC59505B507F5BEE85D3B6` | 候选文档更新；源文件未改 |
+| `.gitattributes` | 新建（Git 初始化模板） | `1A1DBE176BC233B499D35A57DB7513F2941C99AB9759F177830C9149BE99005B` | 新增；`* text=auto` |
+| `RELEASE_CHECKLIST.md` | `GitHub发布方案_20261013/RELEASE_CHECKLIST.md` | `553633A522FFF72D44DC741611AB92F95BE4D1A74531F6E6411BA4F18BBFCAEE` | 候选文档更新；源文件未改 |
 | `FILE_SELECTION.md` | `GitHub发布方案_20261013/FILE_SELECTION.md` | `586A1D142467494F93D286DDCADFE567891FBCC0F0DFF37F6E1255E6B834AEDA` | 候选文档更新；源文件未改 |
-| `SOURCE_MANIFEST.json` | `GitHub发布方案_20261013/SOURCE_MANIFEST.json` | `C56AFDED69568D1DFBFD9152B5264A93C86030E7330FF10901E58676F6444CDC` | 由历史清单派生并更新 |
+| `SOURCE_MANIFEST.json` | `GitHub发布方案_20261013/SOURCE_MANIFEST.json` | `206521C56785C02C80EC3D8E2CF978E92C2C13490A78E3D75FA8A1B0DAC8604F` | 由历史清单派生并更新 |
 | `docs/architecture.md` | `GitHub发布方案_20261013/docs/architecture.md` | `9BD52228A358157B2C87E920C0E354CF7E611E3861AB3DB7F961664DEEBC021B` | 候选文档更新；源文件未改 |
 | `docs/hardware.md` | `GitHub发布方案_20261013/docs/hardware.md` | `FCD7E1170E53EF1042C4831DF1981A305338D5D14F4473EE91C2B3748B60A48F` | 候选文档更新；源文件未改 |
 | `docs/software_structure.md` | `GitHub发布方案_20261013/docs/software_structure.md` | `FA8DC63AE7CD6FF09BBCCAD6AB8C4CB6390C9272FBB830EFA448F12E7322336F` | 候选文档更新；源文件未改 |
 | `docs/development_notes.md` | `GitHub发布方案_20261013/docs/development_notes.md` | `65F149A858B1BE076384F7670317921E106A5E772089485C8EF08CAAF11F7B97` | 候选文档更新；源文件未改 |
 | `docs/lessons_learned.md` | `GitHub发布方案_20261013/docs/lessons_learned.md` | `9191F3ED6EDE2183A299F36C2A8A065B1578FB7A988D9FF456B78B8E36147044` | 原样复制；SHA-256 一致 |
-| `docs/fact_check.md` | `GitHub发布方案_20261013/docs/fact_check.md` | `14F50595D2D91473BC2EBCD54970EC205FE19ABA72E3B31818F474023AA3DE86` | 候选文档更新；源文件未改 |
-| `media/README.md` | `GitHub发布方案_20261013/media/README.md` | `EE618AF548169EBC9D7881229AE23BFFBDB871301EC13EFE4F633DFCEE9D5977` | 候选文档更新；源文件未改 |
+| `docs/fact_check.md` | `GitHub发布方案_20261013/docs/fact_check.md` | `951DF87D9C93B343F980FC24C272E1140C6DF35194908D3E30C1520FD7A126C0` | 候选文档更新；源文件未改 |
+| `media/README.md` | `GitHub发布方案_20261013/media/README.md` | `13E04D318FEC0332A07AD4409885FD97F5EAFC823BC35100139CA3ED11C60156` | 候选文档更新；源文件未改 |
 
 LICENSE 为标准 MIT 文本，SHA-256：`30A1D2F285C2252170C5DF7521E4AE164BDF00DC56F48B1B32F05B61DFE32C54`。其余许可/安全/源码变更文档为整理记录，不冒充原始比赛资料。
 
@@ -89,16 +91,16 @@ LICENSE 为标准 MIT 文本，SHA-256：`30A1D2F285C2252170C5DF7521E4AE164BDF00
 
 - team-award.jpg 旧副本的结构性 EOI 后有 4,517,519 字节 MP4，容器记录 3.026 秒并含视频/音频轨。尾部数据已全部移除，未播放、未推断具体内容；APP3/APP4 也已移除。
 - 三张比赛截图的 24 字节尾注已移除；五张图 EOI 后均为零字节。
-- 五张 JPEG 只保留标准 JFIF；team-award.jpg 另保留 ICC_PROFILE APP2（含标记共 650 字节，长度字段为 648） 色彩配置。不存在 EXIF/XMP、IPTC、COM、厂商 APP3/APP4 或其他未说明 APP 段。
+- 其余四张 JPEG 保留 APP0 JFIF；team-award.jpg 无 APP0，仅保留 ICC_PROFILE APP2（含标记共 650 字节，长度字段为 648）色彩配置。全部图片不存在 EXIF/XMP、IPTC、COM、厂商 APP3/APP4 或其他未说明 APP 段。
 - Pillow 解码通过，相对修复前候选副本的解码像素、JPEG 图像编码数据与 ICC 配置完全一致。先前把 SOS 后整段（含尾部数据）当作图像数据的哈希口径已替换为结构化图像编码哈希。
 - 原始附件哈希仅作历史溯源，本轮没有声称重新读取全部原图。公开清单的来源名中性化为 attachment-1..5，私有文件名映射保留在本地整理记录中。
 - README 与文档改为稳定的 historical snapshot / as-is 描述；不再根据远端是否已经上传改变事实含义。
 - FACT_CHECK 保留技术原文，并添加 2026-10-23 已确认事项的历史说明。当前白名单公开范围与图片展示权限依据参赛者确认，未独立核验书面权属附件；不扩展到未选 CAD/服务或原始归档。
-- 修正媒体说明文档的派生状态、27/32 文件计数及 test_comm.py 入口行号。入口线程参数、Ctrl+C/异常上报、角度 None 等历史缺口已补充披露；机器人源码不作功能修改。
+- 修正媒体说明文档的派生状态、27/32 文件计数、test_comm.py 入口行号，以及 team-award 无 APP0 JFIF 的记录。入口线程参数、Ctrl+C/异常上报、角度 None 等历史缺口已补充披露；机器人源码不作功能修改。
 - 相对文档/图片链接与清单哈希复核通过。十个 Python 只做 AST 解析；没有导入模块、运行执行器、安装依赖或测试真机。
 
 ## 5. 展示范围与局限
 
 MIT 用于代码与项目说明文档，图片仅确认在本仓库展示，复用范围单独说明。完整视觉服务、依赖版本锁定、接线和完整真机复现仍缺。未纳入比赛规则、培训材料、压缩包、备份、第三方 SDK、原始日志/摄像头数据、完整视频或其他 CAD/媒体。
 
-最初建立代码与文档时为 26 个文件，加入 MIT 时为 27 个（加入图片前），加入五张图片后为 32 个；本轮仍为 32 个。审查只覆盖所列快照与必要的来源哈希，不宣称整个原始归档已经净化或整机运行已验收。
+最初建立代码与文档时为 26 个文件，加入 MIT 时为 27 个（加入图片前），加入五张图片后为 32 个；Git 初始化加入 `.gitattributes` 后为 33 个，本轮仍为 33 个。审查只覆盖所列快照与必要的来源哈希，不宣称整个原始归档已经净化或整机运行已验收。
