@@ -54,8 +54,14 @@ IP 字面量不都表示私人信息：回环地址、监听地址和真实部�
 
 ## 5. 本地审核附加文件
 
-本次只加入指定的六份 docs、`media/README.md` 和顶层文档；另加入标准 MIT `LICENSE`，生成 `LICENSE_STATUS.md`、`SECURITY_FINDINGS.md`、`SOURCE_CHANGE_PROPOSALS.md`、`LOCAL_RELEASE_AUDIT.md`。未复制 `PUBLISH_PLAN.md`、`mentor_review.md`、`LICENSE_PENDING.md`、配置说明或第三方源码。每份复制文档的来源、源哈希与候选状态见 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)；完整实存清单见 [LOCAL_RELEASE_AUDIT.md](LOCAL_RELEASE_AUDIT.md)。
+原白名单包含六份 docs、`media/README.md` 和顶层文档；当前范围另含下节记录的 11 份机械说明；另加入标准 MIT `LICENSE`，生成 `LICENSE_STATUS.md`、`SECURITY_FINDINGS.md`、`SOURCE_CHANGE_PROPOSALS.md`、`LOCAL_RELEASE_AUDIT.md`。未复制 `PUBLISH_PLAN.md`、`mentor_review.md`、`LICENSE_PENDING.md`、配置说明或第三方源码。每份复制文档的来源、源哈希与候选状态见 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)；完整实存清单见 [LOCAL_RELEASE_AUDIT.md](LOCAL_RELEASE_AUDIT.md)。
 
 ## 6. 已确认的五张展示图片
 
 2026-10-23 用户确认五张所附图片可在本项目公开展示，并确认奖牌对应本团队项目。当前白名单增加 `media/robot-overview.jpg`、`media/team-award.jpg` 与三张 `media/competition-*.jpg`。公开副本只去除 JPEG 隐藏元数据，原图保留；保留水印、记录来源哈希。图片未自动纳入 MIT 复用许可，具体范围见 [media/README.md](media/README.md)。
+
+## 7. 机械说明文档（2026-10-24 确认范围）
+
+当前包含 [机械系统主页](mechanical/README.md)、六份 `mechanical/docs/` 专题说明，以及 CAD、工程图、BOM、图片四份状态说明，共 11 份 Markdown。它们是新编说明，依据内部设计记录、CAD 文件名/目录清点和五张已确认图片，不是原始比赛文档的原样复制。逐文件来源依据与当前哈希见 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)。
+
+机械说明文本的团队公开范围依据本人于 2026-10-24 的确认，无独立书面核验；该确认不包含 CAD/工程图文件及第三方模型的公开或再分发授权。没有新增 CAD、工程图、BOM 文件或图片。当前总计 44 文件（39 文本 + 5 JPEG），机械说明计入这 39 个文本文件。

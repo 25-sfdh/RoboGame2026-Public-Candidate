@@ -74,14 +74,14 @@ RoboGame2026-Public-Candidate/
 | `src/robot/serial_ports.py` | `代码/robogame三审速通/pi_current_20261002/serial_ports.py` | `1CC1F849500AA681C4BDCBCD37831BF45BA1BD1E23911A7FD26678C8A78BD4C2` | 两处授权 USB 标识脱敏；原件保留 |
 | `src/robot/Tuigan.py` | `代码/robogame三审速通/pi_current_20261002/Tuigan.py` | `E0820164BDE3929197A956570293447C2DAC2B793E98DBA637239C42C4281DE0` | 原样复制；SHA-256 一致 |
 | `src/robot/test_comm.py` | `代码/robogame三审速通/pi_current_20261002/test_comm.py` | `F1484BC38CB08665C158DE615D0E8FA77A19A7BA46D36323969432A18659406C` | 原样复制；SHA-256 一致 |
-| `README.md` | `GitHub发布方案_20261013/README.md` | `5DA01657016AB46BBE5B44E88BC16C61552D2ABADB99686753076AE7D1268531` | 候选文档更新；源文件未改 |
+| `README.md` | `GitHub发布方案_20261013/README.md` | `A983FEB7BF456AEAEE73EA7C4C27A809C1C505B455317D52E64254E635E971C7` | 候选文档更新；源文件未改 |
 | `.gitignore` | `GitHub发布方案_20261013/.gitignore` | `C276867485D936866561EEB103364D4327C44F8F07F4251BBE78B71F580B3957` | 候选文档更新；源文件未改 |
 | `.gitattributes` | 新建（Git 初始化模板） | `1A1DBE176BC233B499D35A57DB7513F2941C99AB9759F177830C9149BE99005B` | 新增；`* text=auto` |
-| `RELEASE_CHECKLIST.md` | `GitHub发布方案_20261013/RELEASE_CHECKLIST.md` | `F310D8CA6180741CA71B2C0C284F4FBA3B1F4E260671B53C586D01F82DFA27EF` | 候选文档更新；源文件未改 |
-| `FILE_SELECTION.md` | `GitHub发布方案_20261013/FILE_SELECTION.md` | `586A1D142467494F93D286DDCADFE567891FBCC0F0DFF37F6E1255E6B834AEDA` | 候选文档更新；源文件未改 |
-| `SOURCE_MANIFEST.json` | `GitHub发布方案_20261013/SOURCE_MANIFEST.json` | `F2BCDFF3A879B7194C9D046E9156B33D2D754A5E0D6178AFA717E6AA86FB4CF5` | 由历史清单派生并更新 |
+| `RELEASE_CHECKLIST.md` | `GitHub发布方案_20261013/RELEASE_CHECKLIST.md` | `E4E2630AA14DB30ADB6830CC5764814B715B73D301D6330316C0E692D0EBA000` | 候选文档更新；源文件未改 |
+| `FILE_SELECTION.md` | `GitHub发布方案_20261013/FILE_SELECTION.md` | `49FA0E885C9F94D18B2ADCAD3A303006F91C217ECE8967E6782ABFC8C15FEDE1` | 候选文档更新；源文件未改 |
+| `SOURCE_MANIFEST.json` | `GitHub发布方案_20261013/SOURCE_MANIFEST.json` | `9B9438F6A929F9F10199757D71F6D753E57B451C417DFCC3594C70B1C9A0B7B4` | 由历史清单派生并更新 |
 | `docs/architecture.md` | `GitHub发布方案_20261013/docs/architecture.md` | `9BD52228A358157B2C87E920C0E354CF7E611E3861AB3DB7F961664DEEBC021B` | 候选文档更新；源文件未改 |
-| `docs/hardware.md` | `GitHub发布方案_20261013/docs/hardware.md` | `FCD7E1170E53EF1042C4831DF1981A305338D5D14F4473EE91C2B3748B60A48F` | 候选文档更新；源文件未改 |
+| `docs/hardware.md` | `GitHub发布方案_20261013/docs/hardware.md` | `97EF3D62E8CF202D3F7617CA735B6479BE636E1F1BEDB36A51BE5C79AACE3562` | 候选文档更新；源文件未改 |
 | `docs/software_structure.md` | `GitHub发布方案_20261013/docs/software_structure.md` | `FA8DC63AE7CD6FF09BBCCAD6AB8C4CB6390C9272FBB830EFA448F12E7322336F` | 候选文档更新；源文件未改 |
 | `docs/development_notes.md` | `GitHub发布方案_20261013/docs/development_notes.md` | `65F149A858B1BE076384F7670317921E106A5E772089485C8EF08CAAF11F7B97` | 候选文档更新；源文件未改 |
 | `docs/lessons_learned.md` | `GitHub发布方案_20261013/docs/lessons_learned.md` | `9191F3ED6EDE2183A299F36C2A8A065B1578FB7A988D9FF456B78B8E36147044` | 原样复制；SHA-256 一致 |
@@ -124,13 +124,13 @@ MIT 用于代码与项目说明文档，图片仅确认在本仓库展示，复�
 
 | 文件 | SHA256 | 状态 |
 | --- | --- | --- |
-| `mechanical/README.md` | `1552B4FE21B52103910194C4C85FA3FE3729420621DFA7429D88A5EA40AE3EB3` | 新建；机械系统主页/贡献边界/团队授权已确认 |
-| `mechanical/docs/system_overview.md` | `4636D13ACFAEF7C2A7E3C109384CD2B2C298FA817545399FE51C536D0FE6AF67` | 新建；总体布置/尺寸证据 |
-| `mechanical/docs/chassis_design.md` | `94DFAFB5235DAFD2C6A3B7BBA5A16C71472706D61C4563DB36E0CAD741BFBCDE` | 新建；麦轮底盘/早期 vs 最终 |
-| `mechanical/docs/lifting_mechanism.md` | `7E3DADD0F96A4A9A9CF4F5D15A2509DACFC984B3A505E02FA9F21BAF94DB61A1` | 新建；升降机构/驱动更换 |
-| `mechanical/docs/gripper_design.md` | `918FDAB3A12CD807AED47C07028B3420D7F472FE8DF36067C31A27058177D719` | 新建；三层夹爪/本人四项设计 |
-| `mechanical/docs/design_iterations.md` | `CD83F85288093BA686AFB1812FBEF350DDC36559B5995AF825BAFF903FBBDE83` | 新建；设计迭代/项目时间线 |
-| `mechanical/docs/assembly_notes.md` | `11BA7887F4C96C7AF156DB59B566D17F51BC0AE9ABD66CA6155C42EDA580B8EB` | 新建；装配/调试/制造节点 |
+| `mechanical/README.md` | `90424E6696A2F6E69D523870D0AB9E4BAF95D40081D498E7A86C3D93305171F4` | 新建；机械系统主页/贡献边界/团队授权已确认 |
+| `mechanical/docs/system_overview.md` | `DB952D9CB4FF6010603BFE8603EE8D36AFC7B3460E0ADEC1F2EE39D7A705E1EE` | 新建；总体布置/尺寸证据 |
+| `mechanical/docs/chassis_design.md` | `13098C1D802192EF080A38079264199F9CD75C6B07D54A76ABC5521EE5BE8D85` | 新建；麦轮底盘/早期 vs 最终 |
+| `mechanical/docs/lifting_mechanism.md` | `9BFF50173D312A13BD75235FA21D672CE2DD0B406660A4D349EEB8A2F3B488A2` | 新建；升降机构/驱动更换 |
+| `mechanical/docs/gripper_design.md` | `FE1266AA3D75CD5F57A9EFACA859600DF2D7813F8325E68EFB76CF06104D460D` | 新建；三层夹爪/本人四项设计 |
+| `mechanical/docs/design_iterations.md` | `7BA762FA514AE4B65BCDECCF74ACF2046BE7CE832116589344B8A1F13930FD40` | 新建；设计迭代/项目时间线 |
+| `mechanical/docs/assembly_notes.md` | `CA6719C2108892914133D869E5E7170F454F640CC7142E241BEF1A427560D483` | 新建；装配/调试/制造节点 |
 | `mechanical/cad/README.md` | `1EBB8DD5B44A667AE46FC8171D1627817A1592069AA6A1B7598843C4BB5F37BD` | 新建；CAD 清点/授权状态 |
 | `mechanical/drawings/README.md` | `081505A01755B9ABABBE90167D1EC861BB3881FD100FBC2FFA8722E8E251163A` | 新建；图纸状态 |
 | `mechanical/bom/README.md` | `150A9A756469E420A6E85DCD360E2EA52511DD973308CBEC442527778DA2E2FB` | 新建；BOM 缺失说明 |
@@ -143,11 +143,28 @@ MIT 用于代码与项目说明文档，图片仅确认在本仓库展示，复�
 | 检查层 | 结果 |
 | --- | --- |
 | 工作区文件 | 44 个内容文件（39 文本 + 5 JPEG）；机械文档 11 个；无 CAD/STEP/DWG/DXF/BOM/新增图片 |
-| 提交前工作区 Git 状态（本审计编写时） | `HEAD`/`origin/main` 均为 `ca515590aeaeb60854536b7cf1f974445930c88d`（重写后）；`git status` 显示 5 个修改文件 + `?? mechanical/`；44 文件工作区内容尚未提交，远程树仍是重写前的树 |
+| 提交前工作区 Git 状态（本审计编写时） | `HEAD`/`origin/main` 均为 `ca515590aeaeb60854536b7cf1f974445930c88d`（重写后）；`git status` 显示 5 个修改文件 + `?? mechanical/`；44 文件工作区内容尚未提交，当时远程树仍是新增机械说明之前的树 |
 | Git commit metadata | 重写后的两个提交作者/提交者为 `25-sfdh <25-sfdh@users.noreply.github.com>`；原 QQ 邮箱已从当前提交元数据移除；旧提交对象可能被 GitHub 缓存 |
 | 远程历史 | 2026-10-24 按所有者授权执行 `--force-with-lease`；重写后、本次提交前 `origin/main` 为 `ca515590…`；未联网检查 GitHub 旧 SHA 缓存、fork 或 PR |
 
 - 2026-10-24 已在所有者明确选择“改写并 force-push”后改写本地历史并推送；本地 `user.email` 已设为 GitHub noreply。没有把原 QQ 邮箱标记为“已同意公开”。
 - **当前远程分支的提交元数据已不再含原 QQ 邮箱**；但 GitHub 可能保留不可达旧提交/缓存，fork、PR 或第三方镜像不受本仓库控制，不能保证所有副本已清除。
-- 本审计编写时 44 文件工作区（机械文档、贡献边界、审计修订）仍未提交；因此远程树没有本轮机械文档和最新审计内容。需要所有者另行 Commit/Push 才会公开。
+- 上表保留新增机械说明之前的历史工作区状态，不代表当前远程状态。2026-10-24 通过 GitHub 读取确认：`main` 已包含提交 `e0a385d0861c8035ef25bdd5ff4b02ec3138b937`，11 份机械说明与相应审计已经提交并公开，提交树共 44 文件。当前文档修正以该提交为基线，实际所属提交以 Git 历史为准。
 - 机械说明文档的团队授权已由本人确认（2026-10-24，无独立书面材料）；本轮按该确认提交。
+
+## 8. 本轮文档一致性修正与哈希覆盖（2026-10-24）
+
+- 修正 CAD 文件名与最终实装的证据边界、说明文本与 CAD/图纸授权的对象边界、导轨型号与实际长度口径、升降/底盘部件区分、未核实的配重日期，以及机械安全措辞。个人贡献、团队成果、CAD 未公开和图片非 MIT 再授权的边界保持。
+- 补全机械说明的逐文件来源依据、导航和日期区分；本轮未取得新的本人观察、授权文件或性能数据。
+- 当前仍为 44 个文件：39 文本（10 Python、25 Markdown、1 JSON、.gitignore、.gitattributes、LICENSE）和 5 JPEG；机械说明 11 份。
+- `SOURCE_MANIFEST.json` 记录除自身和本审计外 42 文件的当前 SHA-256；manifest 自身哈希在本审计第 2 节记录，合计覆盖 43/44 文件。本审计不记录自身 SHA-256，由包含它的 Git 提交及 blob 标识锚定，避免循环依赖。
+- 重新计算并核对 43 文件的已记录 SHA-256（38 文本，含 manifest；5 JPEG）；39 个文本与五张图片的基线 Git blob 标识均与远程提交树一致。图片字节重新读取，像素、元数据及原图清理对比未重新验证。
+- 十个 Python 仅做 AST 解析，未导入或执行；所有相对文档/图片路径与标题锚点核对后提交。机器人源码、图片、许可证、Git 配置和既有历史均不作修改。
+
+补充的审核文档当前 SHA-256：
+
+| 文件 | SHA256 |
+| --- | --- |
+| `LICENSE_STATUS.md` | `DB55D9A7D55B43CC769FA6C788FFAEDE6EBDD685C8ABAD4061986AFE5F438F30` |
+| `SECURITY_FINDINGS.md` | `141C7A38C2CD9AEE75F92E0B7E84DE9966BDC1E174DC39428D1E8186A146AE59` |
+| `SOURCE_CHANGE_PROPOSALS.md` | `8954B61CF6A916E390149FCB1D93512C9947034448E606F238791670192388B2` |

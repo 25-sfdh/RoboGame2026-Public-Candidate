@@ -104,7 +104,7 @@
       "destination": "README.md",
       "source_sha256": "C2C9CB89404AB8F3BE5145352263F0EB9BCAA514BBF8E43113A15EBA228AE200",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "5DA01657016AB46BBE5B44E88BC16C61552D2ABADB99686753076AE7D1268531"
+      "candidate_sha256": "A983FEB7BF456AEAEE73EA7C4C27A809C1C505B455317D52E64254E635E971C7"
     },
     {
       "source": "GitHub发布方案_20261013/.gitignore",
@@ -118,14 +118,14 @@
       "destination": "RELEASE_CHECKLIST.md",
       "source_sha256": "A4949434BF82D2A7F54E7AF9E3D8B0EDF2C34A8294890E1285EF1021F83CF9B7",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "F310D8CA6180741CA71B2C0C284F4FBA3B1F4E260671B53C586D01F82DFA27EF"
+      "candidate_sha256": "E4E2630AA14DB30ADB6830CC5764814B715B73D301D6330316C0E692D0EBA000"
     },
     {
       "source": "GitHub发布方案_20261013/FILE_SELECTION.md",
       "destination": "FILE_SELECTION.md",
       "source_sha256": "ADD1A1E2CC83569AE7ADCAC04F514240887620475686D2C77C870B1E943DA851",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "586A1D142467494F93D286DDCADFE567891FBCC0F0DFF37F6E1255E6B834AEDA"
+      "candidate_sha256": "49FA0E885C9F94D18B2ADCAD3A303006F91C217ECE8967E6782ABFC8C15FEDE1"
     },
     {
       "source": "GitHub发布方案_20261013/SOURCE_MANIFEST.json",
@@ -147,7 +147,7 @@
       "destination": "docs/hardware.md",
       "source_sha256": "07FCD5FCADEF8E0D33340173F79B7556FFA08B1B72391EE3422008529A471893",
       "status": "candidate_documentation_updated",
-      "candidate_sha256": "FCD7E1170E53EF1042C4831DF1981A305338D5D14F4473EE91C2B3748B60A48F"
+      "candidate_sha256": "97EF3D62E8CF202D3F7617CA735B6479BE636E1F1BEDB36A51BE5C79AACE3562"
     },
     {
       "source": "GitHub发布方案_20261013/docs/software_structure.md",
@@ -188,19 +188,23 @@
   "generated_documents": [
     {
       "destination": "LICENSE_STATUS.md",
-      "basis": "Project documentation and static snapshot review record, updated 2026-10-23."
+      "basis": "Project documentation and static snapshot review record, updated 2026-10-23.",
+      "candidate_sha256": "DB55D9A7D55B43CC769FA6C788FFAEDE6EBDD685C8ABAD4061986AFE5F438F30"
     },
     {
       "destination": "SECURITY_FINDINGS.md",
-      "basis": "Project documentation and static snapshot review record, updated 2026-10-23."
+      "basis": "Historical static security review record; documentation consistency update 2026-10-24.",
+      "candidate_sha256": "141C7A38C2CD9AEE75F92E0B7E84DE9966BDC1E174DC39428D1E8186A146AE59"
     },
     {
       "destination": "SOURCE_CHANGE_PROPOSALS.md",
-      "basis": "Project documentation and static snapshot review record, updated 2026-10-23."
+      "basis": "Project documentation and static snapshot review record, updated 2026-10-23.",
+      "candidate_sha256": "8954B61CF6A916E390149FCB1D93512C9947034448E606F238791670192388B2"
     },
     {
       "destination": "LOCAL_RELEASE_AUDIT.md",
-      "basis": "Project documentation and static snapshot review record, updated 2026-10-23."
+      "basis": "Historical static review record; documentation consistency update 2026-10-24.",
+      "hash_note": "Not self-hashed; anchored by its containing Git commit/blob. Manifest is hashed in the audit to avoid a cycle."
     },
     {
       "destination": "LICENSE",
@@ -217,8 +221,76 @@
   "mechanical_documentation": {
     "index": "mechanical/README.md",
     "files": 11,
-    "status": "Newly authored 2026-10-23 from internal design records, CAD inventory and approved photos; CAD and drawings not included; hashes recorded in LOCAL_RELEASE_AUDIT.md section 6.",
-    "publication_authorization": "confirmed by participant on 2026-10-24 as team authorization; no independent written verification"
+    "status": "Newly authored 2026-10-23 from internal design records, CAD filename/directory inventory and approved photos; published in e0a385d0861c8035ef25bdd5ff4b02ec3138b937; CAD and drawings not included; per-file hashes recorded below and in LOCAL_RELEASE_AUDIT.md section 6.",
+    "publication_authorization": "confirmed by participant on 2026-10-24 as team authorization; no independent written verification",
+    "entries": [
+      {
+        "destination": "mechanical/README.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "90424E6696A2F6E69D523870D0AB9E4BAF95D40081D498E7A86C3D93305171F4"
+      },
+      {
+        "destination": "mechanical/bom/README.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "150A9A756469E420A6E85DCD360E2EA52511DD973308CBEC442527778DA2E2FB"
+      },
+      {
+        "destination": "mechanical/cad/README.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "1EBB8DD5B44A667AE46FC8171D1627817A1592069AA6A1B7598843C4BB5F37BD"
+      },
+      {
+        "destination": "mechanical/docs/assembly_notes.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "CA6719C2108892914133D869E5E7170F454F640CC7142E241BEF1A427560D483"
+      },
+      {
+        "destination": "mechanical/docs/chassis_design.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "13098C1D802192EF080A38079264199F9CD75C6B07D54A76ABC5521EE5BE8D85"
+      },
+      {
+        "destination": "mechanical/docs/design_iterations.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "7BA762FA514AE4B65BCDECCF74ACF2046BE7CE832116589344B8A1F13930FD40"
+      },
+      {
+        "destination": "mechanical/docs/gripper_design.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "FE1266AA3D75CD5F57A9EFACA859600DF2D7813F8325E68EFB76CF06104D460D"
+      },
+      {
+        "destination": "mechanical/docs/lifting_mechanism.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "9BFF50173D312A13BD75235FA21D672CE2DD0B406660A4D349EEB8A2F3B488A2"
+      },
+      {
+        "destination": "mechanical/docs/system_overview.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "DB952D9CB4FF6010603BFE8603EE8D36AFC7B3460E0ADEC1F2EE39D7A705E1EE"
+      },
+      {
+        "destination": "mechanical/drawings/README.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "081505A01755B9ABABBE90167D1EC861BB3881FD100FBC2FFA8722E8E251163A"
+      },
+      {
+        "destination": "mechanical/images/README.md",
+        "status": "newly_authored_documentation",
+        "basis": "Internal design records, CAD filename/directory inventory and approved media as described in this document; not a verbatim source file or verified final CAD.",
+        "candidate_sha256": "E247AFF1332F58FAC467170D2C06056772CBFAA910B44B9B3E80D7045BD9AA6B"
+      }
+    ]
   },
   "last_updated": "2026-10-24",
   "human_confirmation": {
@@ -227,10 +299,13 @@
     "scope": [
       "current whitelist publication scope",
       "contribution narrative",
-      "privacy review",
-      "mechanical documentation"
+      "privacy review"
     ],
-    "mechanical_documentation": "confirmed by participant on 2026-10-24 as team authorization; no independent written verification",
+    "mechanical_documentation": {
+      "date": "2026-10-24",
+      "scope": "Publication of the 11 mechanical Markdown documents only; excludes CAD/drawing files and third-party model redistribution.",
+      "basis": "Participant statement that team authorization was obtained; no independent written verification."
+    },
     "usb_redaction": "explicitly authorized and applied to candidate only",
     "license": "MIT explicitly selected by user on 2026-10-23",
     "media": {
@@ -507,5 +582,20 @@
         "mit_sublicense_confirmed": false
       }
     }
-  ]
+  ],
+  "snapshot_counts": {
+    "total_files": 44,
+    "text_files": 39,
+    "jpeg_files": 5,
+    "python_files": 10,
+    "markdown_files": 25,
+    "mechanical_markdown_files": 11
+  },
+  "hash_coverage": {
+    "manifest_current_sha256_entries": 42,
+    "additional_manifest_sha256": "Recorded in LOCAL_RELEASE_AUDIT.md; manifest does not hash itself.",
+    "total_files_with_recorded_current_sha256": 43,
+    "audit_anchor": "LOCAL_RELEASE_AUDIT.md is anchored by its containing Git commit/blob, not a self-hash.",
+    "validation_2026_10_24": "Recomputed 38 text SHA-256 values including this manifest and all five JPEG SHA-256 values; remote blob IDs/sizes checked. Pixel/metadata and original-image comparisons not repeated."
+  }
 }
